@@ -115,5 +115,6 @@ if __name__ == "__main__":
     demo.launch(
         server_name="0.0.0.0",
         server_port=7862,  # 拼图生成器专属端口
-        max_threads=2  # 限制并发，防止内存耗尽
+        max_threads=2,  # 限制并发，防止内存耗尽
+        css=custom_css  # 应用自定义CSS
     )
