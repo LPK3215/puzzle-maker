@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 临时文件
+*.log
+.DS_Store
+Thumbs.db
+
+# 输出文件
+output/
+*.png
+*.html
+*.ans
+*.svg
+!data/*.jpg
+!data/*.png
+
+# Git 脚本配置（可选）
+# 如果不想提交个人配置，取消下面的注释
+# 1-git-push-日常推送.bat
+# 2-git-clone-从云端拉取.bat

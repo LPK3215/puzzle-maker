@@ -1,0 +1,42 @@
+{
+  "defaults": {
+    "image_path": "data/bg2.jpg"
+  },
+  "layouts": [
+    {
+      "id": "GRID_3X3",
+      "name": "3x3 网格",
+      "desc": "规则 3x3 切分",
+      "type": "grid",
+      "defaults": {"rows": 3, "cols": 3}
+    },
+    {
+      "id": "GRID_4X4",
+      "name": "4x4 网格",
+      "desc": "规则 4x4 切分",
+      "type": "grid",
+      "defaults": {"rows": 4, "cols": 4}
+    },
+    {
+      "id": "GRID_5X5",
+      "name": "5x5 网格",
+      "desc": "规则 5x5 切分",
+      "type": "grid",
+      "defaults": {"rows": 5, "cols": 5}
+    },
+    {
+      "id": "GRID_6X6",
+      "name": "6x6 网格",
+      "desc": "规则 6x6 切分",
+      "type": "grid",
+      "defaults": {"rows": 6, "cols": 6}
+    },
+    {
+      "id": "GRID_8X8",
+      "name": "8x8 网格",
+      "desc": "规则 8x8 切分",
+      "type": "grid",
+      "defaults": {"rows": 8, "cols": 8}
+    }
+  ]
+}
