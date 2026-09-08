@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>拼图生成器 — 项目全景观览</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="scroll-progress"></div>
+  <nav class="navbar">
+    <div class="nav-brand">拼图生成器</div>
+    <div class="nav-links">
+      <a href="#hero" class="nav-link active">概览</a>
+      <a href="#intro" class="nav-link">简介</a>
+      <a href="#structure" class="nav-link">目录结构</a>
+      <a href="#docs" class="nav-link">文档索引</a>
+    </div>
+    <button class="theme-toggle" id="themeToggle" title="切换主题">🌙</button>
+  </nav>
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <div class="hero-badges">
+        <span class="badge">Python</span>
+        <span class="badge">图像处理</span>
+        <span class="badge">拼图</span>
+      </div>
+      <h1 class="hero-title">拼图生成器</h1>
+      <p class="hero-subtitle">将图片切分为拼图块的 Python 工具，支持多种切分布局和导出格式</p>
+    </div>
+  </section>
+  <section id="intro" class="section">
+    <h2 class="section-title">项目简介</h2>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-icon">🧩</div>
+        <h3>核心功能</h3>
+        <ul class="feature-list">
+          <li>多种切分密度（3x3 到 8x8）</li>
+          <li>两种拼图形状（经典/直线）</li>
+          <li>Web 界面，响应式设计</li>
+          <li>导出 PNG / HTML / SVG</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="structure" class="section">
+    <h2 class="section-title">目录结构</h2>
+    <div class="tree-container">
+      <details open class="tree-node">
+        <summary>📁 puzzle-maker/</summary>
+        <div class="tree-children">
+          <div class="tree-leaf">📁 src/ — 核心源代码</div>
+          <div class="tree-leaf">📁 config/ — 配置文件</div>
+          <div class="tree-leaf">📁 deploy/ — 部署脚本</div>
+          <div class="tree-leaf">📄 app.py — 应用入口</div>
+          <div class="tree-leaf">📄 requirements.txt</div>
+        </div>
+      </details>
+    </div>
+  </section>
+  <section id="docs" class="section">
+    <h2 class="section-title">文档索引</h2>
+    <div class="doc-list">
+      <a href="./README.md" class="doc-link">📄 README.md</a>
+      <a href="./CONTRIBUTING.md" class="doc-link">📄 CONTRIBUTING.md</a>
+      <a href="./CHANGELOG.md" class="doc-link">📄 CHANGELOG.md</a>
+      <a href="./LICENSE" class="doc-link">📄 LICENSE</a>
+    </div>
+  </section>
+  <section class="section license-section">
+    <h2 class="section-title">许可证</h2>
+    <p>本项目基于 MIT License 开源。© 2026 LPK3215</p>
+  </section>
+  <button id="backToTop" class="back-to-top" title="返回顶部">↑</button>
+  <footer class="footer"><p>Generated on 2026-09-08</p></footer>
+  <script src="./script.js"></script>
+</body>
+</html>

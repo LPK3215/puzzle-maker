@@ -25,11 +25,14 @@ Thumbs.db
 # 输出文件
 output/
 *.png
-*.html
 *.ans
 *.svg
 !data/*.jpg
 !data/*.png
+
+# 保留项目文档 HTML
+!project_overview.html
+!project_overview/*.html
 
 # Git 脚本配置（可选）
 # 如果不想提交个人配置，取消下面的注释
